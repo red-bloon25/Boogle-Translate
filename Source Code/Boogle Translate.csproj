@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <RootNamespace>Boogle_Translate</RootNamespace>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      
+      <Resource Include="Fonts\Peralta-Regular.ttf" />
+      
+      <None Remove="Images\background.png" />
+      
+      <None Remove="Images\BoogleTranslate-BoogleTranslate.png" />
+      
+      <Resource Include="Images\BoogleTranslate-BoogleTranslate.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\images.jpg" />
+      
+      <Resource Include="Images\backgroundA.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\BackGroundB.jpg" />
+      
+      <Resource Include="Images\BackGroundB.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\BackGroundC.jpg" />
+      
+      <None Remove="Images\BackgroundD.jpg" />
+      
+      <Resource Include="Images\BackgroundD.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\backgroundE.jpg" />
+      
+      <Resource Include="Images\backgroundE.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\download.jpg" />
+      
+      <Resource Include="Images\BackGroundC.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      
+      <None Remove="Images\BackGroundF.png" />
+      
+      <Resource Include="Images\BackGroundF.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+
+</Project>
